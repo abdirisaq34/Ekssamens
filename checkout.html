@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Ressurser/ikoner/fontawesomeikoner/fontawesome-free-6.6.0-web/css/brands.css">
     <link rel="stylesheet" href="Ressurser/ikoner/fontawesomeikoner/fontawesome-free-6.6.0-web/css/solid.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Produktside</title>
+    <title>Kasse side</title>
 </head>
 <body>
     <header>
@@ -70,22 +70,47 @@
             <a href="#">Avbryt</a>
         </section>
         <section>
+            <h2>3. LEVERING</h2>
             <h3>Leveringalternativ</h3>
-            
-            <label>
-                <input type="radio" name="alternativ2" value="alternativ1" checked> 
-                Express hjemelevering
-            </label>
-            
-            <label>
-                <input type="radio" name="alternativ2" value="alternativ2"> 
-                Ekspress pakke til utleveringstedet
-            </label>
-            
-            <label>
-                <input type="radio" name="alternativ2" value="alternativ3"> 
-                Standard hjemelevering
-            </label>
+            <form>
+                <label>
+                    <input type="radio" name="valg1" id="yes">
+                    Express Hjemlevering
+                </label>
+                <label>
+                    <input type="radio" name="valg2" id="yes">
+                    Ekspress pakke til utleveringssted
+                </label>
+                <label>
+                    <input type="radio" name="valg3" id="yes">
+                    Standard Hjemlevering
+                </label>
+            </form>
+        </section>
+        <section>
+            <h2>4. BETALING</h2>
+            <H3>BETAL MED KORT</H3>
+            <P>kortnummer</P>
+            <form action="Betaling" method="get">
+                <input type="number" name="kortnummer" placeholder="342342****4435" required>
+                <input type="date" name="utøpsdato" required>
+                <input type="text" name="cvc/cvv" placeholder="cvc/cvv" required>
+            </form>
+            <p>Å betale inkl.mva.</p>
+            <p>1 199 kr</p>
+            <p>Fullfør kjøp</p>
+            <p>Du bekrefter herved at opplysningene og documentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufoullstendige opplysninger</p>
+            <form>
+                <label>
+                    <input type="checkbox" name="nyhetsbrev" id="yes">
+                    Ja takk, Send nyhetsbrev til meg.
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="sms-epost" id="yes">
+                    Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.
+                </label>
+            </form>
         </section>
         
     </main>
