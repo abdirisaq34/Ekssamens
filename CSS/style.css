@@ -104,6 +104,35 @@ header nav ul li h1{
 .Anmeldelsekort img{
     width: 110px;
 }
+
+.levering{
+ display: grid;
+  gap: 3px;
+  height: 237px;
+  width: 100%;
+}
+
+.lagrekjop{
+    background-color: #4e4a4a;
+    padding: 5px;
+    color: white;
+    height: 25px;
+    width: 47px;
+    text-align: center;
+}
+
+
+.leveringsal{
+    display: grid;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.betalemedkort{
+    display: grid;
+   height: 237px;
+   width: 100%;
+}
 footer{
     border-top: 2px solid #ccc;
 }

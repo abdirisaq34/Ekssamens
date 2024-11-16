@@ -21,7 +21,7 @@
                 <li><h1><a href="forside.html">Logo</a></h1></li>
 
                 <li><a href="">Kategorier</a></li>
-                <li><a href="">konakt oss</a></li>
+                <li><a href="">Konakt oss</a></li>
 
 
                 <li class="ikonerheader"><a href="" aria-label="user"> <i class="fa-regular fa-user"></i></a></li>
@@ -59,20 +59,20 @@
         <section>
             <h2>2. DINE OPPLYSSNINGER</h2>
             <p>Leveringsadresse</p>
-            <form action="Personopplysninger" method="get">
+            <form class="levering" action="Personopplysninger" method="get">
                 <input type="text" name="Fornavn" placeholder="Fornavn*" required>
                 <input type="text" name="Etternavn" placeholder="Etternavn*" required>
                 <input type="text" name="Gateadresse" placeholder="Gateadresse*" required>
                 <input type="number" name="postnummer" placeholder="Postummer*" required>
                 <input type="text" name="Postnummer" placeholder="postnummer*" required>
             </form>
-            <P>Lagre</P>
-            <a href="#">Avbryt</a>
+            <P class="lagrekjop">Lagre</P>
+            <a class="avbrytkjop" href="#">Avbryt</a>
         </section>
         <section>
             <h2>3. LEVERING</h2>
             <h3>Leveringalternativ</h3>
-            <form>
+            <form class="leveringsal">
                 <label>
                     <input type="radio" name="valg1">
                     Express Hjemlevering
@@ -89,11 +89,16 @@
         </section>
         <section>
             <h2>4. BETALING</h2>
+
+
             <H3>BETAL MED KORT</H3>
-            <P>kortnummer</P>
-            <form action="Betaling" method="get">
-                <input type="number" name="kortnummer" placeholder="342342****4435" required>
+            <form class="betalemedkort" action="Betaling" method="get">
+                Kortnummer
+                <input type="number" name="kortnummer" 
+                placeholder="342342****4435" required>
+                Utløpsdato
                 <input type="date" name="utøpsdato" required>
+                CVC/CVV
                 <input type="text" name="cvc/cvv" placeholder="cvc/cvv" required>
             </form>
             <p>Å betale inkl.mva.</p>
