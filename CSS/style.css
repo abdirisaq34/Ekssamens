@@ -119,6 +119,11 @@ header nav ul li h1{
     height: 25px;
     width: 47px;
     text-align: center;
+    border: 2px solid #807c7c;
+}
+
+.avbrytkjop{
+    color: blue;
 }
 
 
@@ -126,13 +131,26 @@ header nav ul li h1{
     display: grid;
     gap: 20px;
     font-weight: bold;
+    padding-bottom: 13px;
 }
 
 .betalemedkort{
-    display: grid;
-   height: 237px;
-   width: 100%;
+  display: grid;
+  gap: 3px;
+  height: 237px;
+  width: 100%;
 }
+
+.fullforkjopknapp{
+  background-color: #4e4a4a;
+  padding: 4px;
+  color: white;
+  height: 28px;
+  width: 83px;
+  text-align: center;
+  border: 2px solid #807c7c;
+}
+
 footer{
     border-top: 2px solid #ccc;
 }
