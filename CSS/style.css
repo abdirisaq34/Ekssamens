@@ -151,8 +151,33 @@ header nav ul li h1{
   border: 2px solid #807c7c;
 }
 
+.brodsmulesti{
+    padding-bottom: 12px;
+}
+
+.brodsmulesti span{
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.brodsmulesti a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#merkenavn{
+    text-decoration-line: underline;
+}
+
+aside{
+    padding-bottom: 30px;
+}
+
 footer{
     border-top: 2px solid #ccc;
+    padding-top: 30px;
 }
 
 .sosialemedierlinker{
