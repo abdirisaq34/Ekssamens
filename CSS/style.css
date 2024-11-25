@@ -218,3 +218,13 @@ footer{
 main section {
     margin-bottom: 30px;
 }
+
+.Produktkort h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.shopping-kort-sekjon-1 h3 a{
+    text-decoration: none;
+    color: black;
+}
