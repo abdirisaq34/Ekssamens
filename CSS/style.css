@@ -85,6 +85,8 @@ header nav ul li h1{
 
 }
 
+/*/for å fikse kategoriboksene brukte jeg w3school som en kilde men prøvde selv ved kode live på firefox development før jeg la dem inn i css arket https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel*/
+
 .Kategorikort {
     height: 150px;
     margin: 10px;
